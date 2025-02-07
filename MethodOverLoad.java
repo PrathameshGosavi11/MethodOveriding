@@ -1,10 +1,10 @@
 class Test
 {
-    void show() //0 argument
+    void show(int a) //here change the type 
     {
         System.out.println("called show method");
     }
-    void show(int a) // 1 argument
+    void show(String b)  //here also change the type.
     {
         System.out.println("called 2nd show ");
     }
@@ -16,7 +16,8 @@ public class MethodOverLoad {
         Test t=new Test();
        // t.show(); // call the 0 argument show method.
 
-       t.show(12); // call the 1 parameter show method.
+       t.show( 11); 
+       t.show( "Pratham");
 
     }
 }
